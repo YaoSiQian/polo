@@ -1,0 +1,7 @@
+<view class="dialog-mask" wx:if="{{show}}">
+  <view class="dialog-container">
+    <view class="dialog-title">{{title}}</view>
+    <view class="dialog-content">{{content}}</view>
+    <button class="dialog-button" bindtap="close">确定</button>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<navigation-bar title="POLO 的愿望" color="black" background="#FFF"></navigation-bar>
+<view class="container">
+  <view class="form-container">
+    <text class="title">任务提交: {{taskName}}</text>
+    
+    <view class="form-item">
+      <text class="label">提交图片(必填)</text>
+      <button bindtap="chooseImage">选择图片</button>
+      <image wx:if="{{imageUrl}}" src="{{imageUrl}}" class="preview-image"></image>
+    </view>
+    
+    <button type="primary" bindtap="submitTask" class="submit-btn">完成任务</button>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="container">
+  <image class="product-image" src="{{product.image}}" mode="widthFix"></image>
+  <view class="product-info">
+    <text class="product-name">{{product.name}}</text>
+    <text class="product-description">{{product.description}}</text>
+    <text class="product-price">价格: {{product.price}}积分</text>
+    <text class="current-points">当前积分: {{currentPoints}}</text>
+    <!-- 新增：等级要求显示 -->
+    <text class="level-requirement" wx:if="{{showLevelRequirement}}">需要等级: Lv{{product.requiredLevel}}</text>
+  </view>
+  
+  <button class="purchase-btn" bindtap="handlePurchase">购买</button>
+</view>

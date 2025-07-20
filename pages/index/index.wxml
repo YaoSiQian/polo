@@ -1,0 +1,22 @@
+<navigation-bar title="“碳”息" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view class="container">
+  <view class="header">
+    <text class="hello-title">今天也要低碳生活噢！</text>
+  </view>
+  
+  <view class="button-container">
+    <view class="menu-button" bindtap="navigateToTask">
+      <image class="button-icon" src="https://education-cos-1307366133.cos.ap-shanghai.myqcloud.com/Mini鹅创想营/cd2516/任务p.svg"></image>
+      <text class="button-text">任务</text>
+    </view>
+    <view class="menu-button" bindtap="navigateToPOLO">
+      <image class="button-icon" src="https://education-cos-1307366133.cos.ap-shanghai.myqcloud.com/Mini鹅创想营/cd2516/北极熊.svg"></image>
+      <text class="button-text">myPOLO</text>
+    </view>
+    <view class="menu-button" bindtap="navigateToUpgrade">
+      <image class="button-icon" src="https://education-cos-1307366133.cos.ap-shanghai.myqcloud.com/Mini鹅创想营/cd2516/商店p.svg"></image>
+      <text class="button-text">商店</text>
+    </view>
+  </view>
+  <view class="snow-btn" bindtap="navigateToSnow">❄</view>
+</view>

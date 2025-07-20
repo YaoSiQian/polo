@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="title">Polo 与 “碳”息，我的碎碎念</view>
+  <view class="content">
+    此时此刻，你或许坐在舞台下，听着两位 Designer & Creator 热情地介绍这个作品；你或许站在展台旁，感受着青少年们激情四射的创意；你也许来自未来，透过一份份页面与画作回忆当初的故事。
+  </view>
+  <view class="subtitle">关于雪的美丽传说</view>
+
+  <image class="snow-image" src="https://education-cos-1307366133.cos.ap-shanghai.myqcloud.com/Mini鹅创想营/cd2516/landing/asdfgsdfg.png" mode="widthFix"></image>
+  <view class="content">
+    雪花是天空写给大地的情书，每一片都是独一无二的艺术品。当寒冬来临，无数晶莹的雪花从天空飘落，为世界披上一层洁白的纱衣。雪花的形状千变万化，有的如六角形的星星，有的如羽毛般轻盈，每一片都展现着大自然的鬼斧神工。
+  </view>
+  <image class="snow-image" src="https://education-cos-1307366133.cos.ap-shanghai.myqcloud.com/Mini鹅创想营/cd2516/landing/合照.jpg" mode="widthFix"></image>
+</view>

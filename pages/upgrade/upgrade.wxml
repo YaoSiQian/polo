@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="header">
+    <text>当前等级: {{level}} | </text>
+    <text>当前积分: {{points}}</text>
+  </view>
+  
+  <view class="product-list">
+    <block wx:for="{{products}}" wx:key="id">
+      <view class="product-item" bindtap="navigateToDetail" data-id="{{item.id}}">
+        <image class="product-image" src="{{item.image}}" mode="aspectFill"></image>
+        <text class="product-name">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>

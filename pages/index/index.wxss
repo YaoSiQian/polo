@@ -1,0 +1,66 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://education-cos-1307366133.cos.ap-shanghai.myqcloud.com/Mini鹅创想营/cd2516/微信图片_20250719125643.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto;
+}
+.menu-button {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #65B7E2;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.button-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 8px;
+}
+.button-text {
+  font-size: 14px;
+  text-align: center;
+}
+.hello-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  color: #125a94;
+  text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+.snow-btn {
+  position: absolute;
+  top: 200rpx;
+  right: 50rpx;
+  padding: 10rpx 20rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20rpx;
+}

@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text class="title">我的碳积分</text>
+  </view>
+  
+  <view class="stats-container">
+    <view class="stat-item">
+      <text class="stat-value">{{points}}</text>
+      <text class="stat-label">当前积分</text>
+    </view>
+    
+    <view class="stat-item">
+      <text class="stat-value">Lv.{{level}}</text>
+      <text class="stat-label">当前等级</text>
+    </view>
+  </view>
+
+  <!-- 新增的冰岛大小板块 -->
+  <view class="island-section">
+    <text class="subtitle">冰岛大小</text>
+    <image class="island-image" src="{{islandImages[level-1]}}" mode="widthFix"></image>
+  </view>
+</view>

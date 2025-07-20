@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/launch/launch",
+    "pages/index/index",
+    "pages/task/task",
+    "pages/task/submit/submit",
+    "pages/upgrade/upgrade",
+    "pages/upgrade/description/description",
+    "pages/myPOLO/myPOLO",
+    "pages/snow/snow"
+  ],
+  "window": {
+    "navigationBarTitleText": "“碳”息",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "renderer": "webview"
+}

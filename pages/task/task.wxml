@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="points-display">
+    当前积分: {{points}}
+  </view>
+  
+  <view class="section">
+    <text class="section-title">今天已经做了：</text>
+    <block wx:for="{{completedTasks}}" wx:key="id">
+      <view class="task-item completed">        <text>{{item.name}}</text>
+        <text class="task-desc">{{item.description}}</text>
+      </view>
+    </block>
+  </view>
+  
+  <view class="section">
+    <view class="section-header">
+      <text class="section-title">还可以做什么呢？</text>
+      <button class="refresh-btn" bindtap="refreshTasks">刷新任务</button>
+    </view>
+    <block wx:for="{{pendingTasks}}" wx:key="id">
+      <view class="task-item" bindtap="navigateToSubmit" data-id="{{item.id}}">        <text>{{item.name}}</text>
+        <text class="task-desc">{{item.description}}</text>
+      </view>
+    </block>
+  </view>
+</view>

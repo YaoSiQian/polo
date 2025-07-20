@@ -1,0 +1,23 @@
+/* pages/launch/launch.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.launch-image {
+  width: 100%;
+  height: 100%;
+}
+.skip-btn {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  padding: 10rpx 20rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20rpx;
+}

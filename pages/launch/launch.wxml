@@ -1,0 +1,5 @@
+<!--pages/launch/launch.wxml-->
+<view class="container">
+  <image src="{{images[currentIndex]}}" mode="aspectFit" class="launch-image"></image>
+  <view class="skip-btn" bindtap="skipToIndex">跳过</view>
+</view>
